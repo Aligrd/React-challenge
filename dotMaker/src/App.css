@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+.box {
+  background: #111111;
+  width: calc(100vw);
+  height: calc(100vh - 60px);
+  
+}
+
+
+
+.point{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  background: white;
+}
+
+.navigation{
+  display: flex;
+  padding: 5px;
+  font-size: 30px;
+  margin: 0;
+  justify-content: space-between;
+  width: 100px;
+  background-color: grey;
+  border-radius: 10px;
+  
+}
+.navigation > div{
+  border: 2px white solid;
+  cursor: pointer;
+}

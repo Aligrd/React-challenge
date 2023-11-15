@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111111;
+  height: 100vh;
+  width: 100vw;
+}
+
+input {
+  background-color: grey;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px;
+}
+.resultHolder {
+  display: flex;
+  justify-content: space-between;
+}
+.resultHolder > * {
+  padding: 10px;
+}
+.dataform {
+  display: flex;
+}
+.dataform > * {
+  margin: 6px;
+}
+li {
+  list-style-type: none;
+}
+li::selection{
+  color: #f2f2f2;
+  background-color: #222222;
+}
