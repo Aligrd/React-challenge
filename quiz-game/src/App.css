@@ -1,0 +1,109 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.control {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.control > div {
+  background: #eee222;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.control > div:hover {
+  background: #eee3ca;
+}
+
+.answers {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: max-content;
+  height: max-content;
+  row-gap: 70px;
+  column-gap: 300px;
+}
+.qContainer {
+  text-align: center;
+  width: 700px;
+  height: 300px;
+  background: #eee;
+}
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: red;
+  height: 50px;
+  width: max-content;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.answer:hover {
+  transform: scale(1.04);
+}
+
+.answerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showResault {
+  border: 2px solid #ccc;
+  background-color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #eee3ca;
+  border: 1px solid #eee;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #e4ee4e;
+}
+.quiz-form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.answers-container {
+  /* /* background: red; */
+  /* height: 150px; */
+  /* width: 500px;  */
+  /* display: flex; */
+  margin: auto;
+  padding: 20px; 
+}

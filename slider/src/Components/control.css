@@ -1,0 +1,18 @@
+.control-container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.control {
+  /* padding: 20px; */
+  /* width: px; */
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.control:hover{
+    background: #e3e3e3;
+}
